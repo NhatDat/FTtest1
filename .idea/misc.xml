@@ -31,6 +31,10 @@
         <entry key="..\:/FTtest1/app/src/main/res/menu/bottom_navigation.xml" value="0.1" />
         <entry key="..\:/FTtest1/app/src/main/res/menu/post_menu.xml" value="0.1" />
         <entry key="..\:/FTtest1/app/src/main/res/mipmap-anydpi-v26/ic_back.xml" value="0.1935" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_menu.xml" value="0.24635416666666668" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile.xml" value="0.4" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile_detail.xml" value="0.264" />
       </map>
     </option>
   </component>
