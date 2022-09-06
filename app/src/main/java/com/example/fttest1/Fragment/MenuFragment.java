@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.fttest1.Fragment.Profile.ProfileFragment;
 import com.example.fttest1.R;
 
 public class MenuFragment extends Fragment {

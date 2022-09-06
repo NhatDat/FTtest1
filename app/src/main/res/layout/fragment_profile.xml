@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="5dp"
-    tools:context=".Fragment.ProfileFragment">
+    tools:context=".Fragment.Profile.ProfileFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -184,7 +184,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@color/title_text"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_background_blue"
                     android:gravity="center"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp">
@@ -222,7 +223,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:background="@color/yellow_QDN"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/button_background_yellow"
                     android:gravity="center"
                     android:paddingTop="5dp"
                     android:paddingBottom="5dp">

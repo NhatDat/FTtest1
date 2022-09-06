@@ -12,13 +12,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.fttest1.LoginActivity;
-import com.example.fttest1.MainActivity;
+import com.example.fttest1.Fragment.Profile.ProfileFragment;
 import com.example.fttest1.PostActivity;
 import com.example.fttest1.R;
-import com.example.fttest1.RegisterActivity;
-
-import java.util.List;
 
 
 public class HomeFragment extends Fragment {

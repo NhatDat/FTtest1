@@ -3,7 +3,6 @@ package com.example.fttest1;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.app.FragmentManager;
 import android.os.Bundle;
@@ -15,7 +14,7 @@ import com.example.fttest1.Fragment.HomeFragment;
 import com.example.fttest1.Fragment.ListStadiumFragment;
 import com.example.fttest1.Fragment.MenuFragment;
 import com.example.fttest1.Fragment.NotificationFragment;
-import com.example.fttest1.Fragment.ProfileFragment;
+import com.example.fttest1.Fragment.Profile.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
