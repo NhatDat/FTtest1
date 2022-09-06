@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/im_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/logoqdnngang"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/im_logo"
+        android:text="Hãy tạo tài khoản để bắt đầu!"
+        android:textSize="18dp"
+        android:textStyle="italic|bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:id="@+id/sv1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/hoTen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="45dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Họ và tên"
+                        android:inputType="text"
+                        android:minHeight="48dp"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/ngaySinh"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Ngày sinh (Vd: 01/09/2023)"
+                        android:inputType="date"
+                        android:minHeight="48dp"
+                        android:padding="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_background"
+                        android:padding="7.5dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Giới tính:"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="15dp"
+                            android:textColor="@color/black"/>
+
+                        <RadioButton
+                            android:id="@+id/rd_nam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nam"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="18sp"/>
+                        <RadioButton
+                            android:id="@+id/rd_nu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nữ"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="18sp"/>
+                        <RadioButton
+                            android:id="@+id/rd_khac"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Khác"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/sdt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Số điện thoại"
+                        android:inputType="numberSigned"
+                        android:minHeight="48dp"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/matkhau"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Mật khẩu"
+                        android:inputType="textPassword"
+                        android:minHeight="48dp"
+                        android:padding="10dp" />
+                    <EditText
+                        android:id="@+id/KTmatkhau"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Nhập lại mật khẩu"
+                        android:inputType="textPassword"
+                        android:minHeight="48dp"
+                        android:padding="10dp" />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btnDangKi"
+                        android:text="Đăng kí"
+                        android:textColor="@color/black"
+                        android:background="@drawable/button_background"
+                        android:layout_marginTop="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bạn đã có tài khoản? Đăng nhập"
+                        android:textColor="@color/black"
+                        android:id="@+id/txt_dangnhap"
+                        android:textSize="16dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"/>
+
+                </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Hoặc đăng nhập với"
+        android:layout_below="@+id/sv1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_google"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
