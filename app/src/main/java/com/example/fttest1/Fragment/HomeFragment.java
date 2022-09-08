@@ -50,7 +50,6 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
                 FragmentTransaction fr = getFragmentManager().beginTransaction();
                 fr.replace(R.id.fragment_container,new ProfileFragment());
-                fr.addToBackStack(null);
                 fr.commit();
             }
         });

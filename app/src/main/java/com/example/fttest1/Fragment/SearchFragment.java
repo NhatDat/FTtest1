@@ -18,7 +18,7 @@ import com.example.fttest1.R;
 import java.util.List;
 
 
-public class SearchFragment extends Fragment {
+public class SearchFragment extends Fragment{
 
     ImageView back;
 
@@ -34,9 +34,12 @@ public class SearchFragment extends Fragment {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                getActivity().getSupportFragmentManager().popBackStack();
             }
         });
+
+
+
 
 
         return view;
