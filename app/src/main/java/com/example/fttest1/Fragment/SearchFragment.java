@@ -21,8 +21,6 @@ import java.util.List;
 public class SearchFragment extends Fragment{
 
     ImageView back;
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
