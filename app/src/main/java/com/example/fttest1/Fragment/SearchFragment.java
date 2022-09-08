@@ -34,15 +34,6 @@ public class SearchFragment extends Fragment {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                FragmentTransaction fr = getFragmentManager().beginTransaction();
-//                fr.replace(R.id.fragment_container,new HomeFragment());
-//                fr.commit();
-
-//                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-//                transaction.replace(R.id.fragment_container, DemoFragment2.newInstance());
-//                transaction.addToBackStack(null);
-//                transaction.commit();
-
 
             }
         });

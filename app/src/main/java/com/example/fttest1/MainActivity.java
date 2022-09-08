@@ -15,6 +15,7 @@ import com.example.fttest1.Fragment.ListStadiumFragment;
 import com.example.fttest1.Fragment.MenuFragment;
 import com.example.fttest1.Fragment.NotificationFragment;
 import com.example.fttest1.Fragment.Profile.ProfileFragment;
+import com.example.fttest1.Fragment.SearchFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         //===========
 
     }
+
+    FragmentManager fragmentManager;
     private BottomNavigationView.OnNavigationItemSelectedListener navigationItemSelectedListener =
             new BottomNavigationView.OnNavigationItemSelectedListener(){
                 @Override
@@ -67,11 +70,12 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     if (selectedFragment!=null){
-                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectedFragment).commit();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectedFragment).addToBackStack(null).commit();
                     }
 
                     return true;
                 }
 
             };
+
 }

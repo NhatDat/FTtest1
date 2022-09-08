@@ -12,7 +12,6 @@ public class LoginActivity extends AppCompatActivity {
 
     Button btnDangNhap;
     TextView txt_dangki,txt_QuenMatKhau;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
