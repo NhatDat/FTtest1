@@ -39,16 +39,20 @@
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/activity_reset_password.xml" value="0.3625" />
-        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_c_l_b_profile.xml" value="0.264" />
-        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_c_l_b_profile_public.xml" value="0.25" />
-        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_c_l_b_public_detail.xml" value="0.25" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_c_l_b_profile.xml" value="0.33" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_c_l_b_profile_public.xml" value="0.16259057971014493" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_c_l_b_public_detail.xml" value="0.264" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_clb_detail.xml" value="0.25" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_detail_stadium.xml" value="0.35833333333333334" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_detail_stadium_public.xml" value="0.35833333333333334" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_menu.xml" value="0.33" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile_detail.xml" value="0.264" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile_public.xml" value="0.33" />
         <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile_public_detail.xml" value="0.3625" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile_stadium.xml" value="0.35833333333333334" />
+        <entry key="..\:/Git/FTtest1/app/src/main/res/layout/fragment_profile_stadium_public.xml" value="0.35833333333333334" />
       </map>
     </option>
   </component>
