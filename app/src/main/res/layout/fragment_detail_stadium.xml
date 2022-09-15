@@ -13,7 +13,6 @@
         android:id="@+id/bar"
         android:background="?android:attr/windowBackground">
 
-
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolBar"
             android:layout_width="match_parent"
