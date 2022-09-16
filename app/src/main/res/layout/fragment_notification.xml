@@ -42,7 +42,9 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_below="@+id/bar" />
+        android:layout_below="@+id/bar"
+        android:layout_marginTop="5dp"
+        tools:listitem="@layout/item_notification"
+        android:textSize="20dp" />
 
 </RelativeLayout>

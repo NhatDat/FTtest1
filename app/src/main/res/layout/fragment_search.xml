@@ -40,6 +40,7 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:listitem="@layout/item_friend_search"
         android:layout_below="@id/bar">
 
     </androidx.recyclerview.widget.RecyclerView>
