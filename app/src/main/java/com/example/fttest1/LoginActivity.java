@@ -8,14 +8,25 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import io.realm.Realm;
+import io.realm.mongodb.App;
+import io.realm.mongodb.AppConfiguration;
+
 public class LoginActivity extends AppCompatActivity {
 
+    //Connect MongoDB Realm
+    String Appid = "ft88-uvzmn";
+    //--------------------
     Button btnDangNhap;
     TextView txt_dangki,txt_QuenMatKhau;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //Connect MongoDB Realm
+        Realm.init(this); // context, usually an Activity or Application
+        App app = new App(new AppConfiguration.Builder(Appid).build());
 
         btnDangNhap= findViewById(R.id.btnDangNhap);
         txt_dangki = findViewById(R.id.txt_dangki);

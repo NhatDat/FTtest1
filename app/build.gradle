@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
 }
+apply plugin: "realm-android"
 
 android {
     compileSdk 32
@@ -25,6 +26,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.example.fttest1'
+}
+
+//bật Đồng bộ hóa
+realm {
+    syncEnabled = true
 }
 
 dependencies {
@@ -39,4 +46,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
 }
